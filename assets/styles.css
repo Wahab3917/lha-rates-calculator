@@ -1,0 +1,83 @@
+.lha-calculator {
+  width: 100%;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.lha-step {
+  padding: 20px 0;
+}
+
+.lha-step h3 {
+  margin: 0 0 16px 0;
+  font-size: 1.3em;
+  color: #333;
+}
+
+.lha-input-group {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.lha-input-group label {
+  width: 38%;
+  text-align: left;
+}
+
+.lha-input-group input[type="text"],
+.lha-input-group input[type="email"],
+.lha-input-group input[type="number"] {
+  width: 60%;
+  padding: 8px 10px;
+  border: 1px solid #dcdfe6;
+  border-radius: 4px;
+}
+
+.lha-btn {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px 16px;
+  border: none;
+  background: #0073e6;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.lha-btn:hover {
+  filter: brightness(0.95);
+}
+
+.lha-rate {
+  margin-top: 18px;
+  font-weight: 600;
+  word-break: break-word;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  background: #f6f7f9;
+}
+
+.lha-rate--error {
+  color: #b42318;
+  border-color: #fecdca;
+  background: #fffbfa;
+}
+
+.lha-rate--success {
+  color: #067647;
+  border-color: #abefc6;
+  background: #f6fef9;
+}
+
+.lha-rate--info {
+  color: #1d4ed8;
+  border-color: #bfdbfe;
+  background: #eff6ff;
+}
+
+.lha-hidden {
+  display: none;
+}
